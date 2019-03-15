@@ -9,3 +9,39 @@
     font-weight: 200;
     margin-left: 40%;
 }
+
+input{
+    width: 40%;
+}
+.bar{
+    margin-left: 100px;
+}
+
+
+.per{
+     /* margin-left: 60%; */
+     font-size: 400%;
+     font-weight: 200;
+     margin-left: 40%;
+ }  
+
+ .per1{
+    font-weight: 400;
+    /* color: black; */
+ }
+ .per2{
+    font-weight: 350;
+    margin-left: 33%;
+    /* color: black; */
+ }
+ .per3{
+    font-weight: 200;
+    /* margin-left: 33%; */
+    /* color: black; */
+ }
+ .per4{
+     color: #2274A5;
+     font-weight: 250;
+     font-size: 60px;
+ }
+ 
