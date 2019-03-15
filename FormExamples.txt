@@ -1,0 +1,40 @@
+ng g guard auth :-
+Authorization Guard Select CanActivate
+_________________________________________________________________________
+
+create a service user
+userLoggedIn: false;
+const(){
+    this.userLoggedIn = false;
+}
+setUserLoggedIn(){
+    this.userLoggedIn = true;
+}
+getUserLoggedIn(){
+    return this.userLoggedIn;
+}
+_________________________________________________________________________
+
+.ts
+
+Validator method:-
+this.user.setUserLoggedIn();
+
+_________________________________________________________________________
+
+In auth.guard.ts
+Put Const
+const(private user: UserService){
+
+}
+CanActivate{
+    return this.user.getUserLoggedIn();
+}
+
+_________________________________________________________________________
+
+add canActivate: [AuthGaurd], in Routes in app.module.ts
+
+_________________________________________________________________________
+
+ng build --production to reduce the number of files in angular

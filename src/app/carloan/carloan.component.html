@@ -1,0 +1,55 @@
+
+
+<br>
+<h1 class="per">Car Loan</h1> <br><br>
+<div class="container">
+  <div class="row">
+      <div class="col-sm">
+        
+          
+    <h1>EMI Calculator</h1>
+    
+    <h3>Know EMIs according to your Plan</h3>
+    <form class="container">
+      <div class="form-group">
+        <label for="text">Enter Car Loan Amount<span class="ast"> *</span></label>
+        <input type="number" class="form-control" placeholder="Enter Amount" name="amt" #amt>
+        <!-- <p class="s1">We'll never share your email address with anyone.</p> -->
+      </div>
+      <div class="form-group">
+          <label for="text">Loan Tenure<span class="ast"> *</span></label>
+          <input type="number" class="form-control" placeholder="Enter time in months" name="time" #time>
+          <!-- <p class="s1">Enter your name as per Govt ID.</p> -->
+        </div>
+        <div class="form-group">
+            <label for="text">Interest Rate<span class="ast"> *</span></label>
+            <input type="number" class="form-control" placeholder="Enter per annum rate" name="accno" #acc>
+            <!-- <p class="s1">Enter your 10 digit account number.</p> -->
+          </div>
+
+      <!-- <div class="form-group">
+        <label for="pwd">Password<span class="ast"> *</span></label>
+        <input type="password" class="form-control" formControlName="pswd" placeholder="Enter password" name="pswd" #pass>
+        <p class="s1">Make sure it's more than 15 characters OR at least 8<br> characters including a number and a lowercase letter. </p>
+      </div> -->
+      
+      
+     
+      <button type="button" class="btn btn-primary" (click)="getEMI(amt.value, time.value, acc.value)">Submit</button><br><br>
+      <!-- <input type="submit" value="Submit" [disabled]="!form.valid"> -->
+      <h2 class="emi">EMI : {{val1}}</h2>
+      <br>
+      
+    </form>
+    </div>
+    <div class="col-sm barlogo"><br><br><br><br><br><br><br><br><a routerLink=""><img class="bar" src="{{backimg}}"></a></div>
+  </div>
+  </div>
+<br>
+  
+
+
+
+
+
+  <br><br>

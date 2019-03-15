@@ -1,0 +1,22 @@
+{
+  "bank": [
+    {
+      "id": "xyz",
+      "name": "xyz",
+      "acc": "0",
+      "pass": "xyz"
+    },
+    {
+      "id": "rnqsharma3@gmail.com",
+      "name": "raunaq",
+      "acc": "1000000000",
+      "pass": "raunaq123"
+    },
+    {
+      "id": "sjahgdsa",
+      "name": "",
+      "acc": "",
+      "pass": ""
+    }
+  ]
+}

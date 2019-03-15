@@ -1,0 +1,32 @@
+input{
+    width: 40%;
+}
+.bar{
+    margin-left: -20px;
+}
+.ast{
+    color: red;
+}
+.emi{
+    font-weight: 250;
+}
+.per{
+     /* margin-left: 60%; */
+     font-size: 400%;
+     font-weight: 200;
+     margin-left: 40%;
+ }  
+ .barlogo{
+     margin-left: 180px;
+ }
+ input{
+    width: 60%;
+ }
+ .per1{
+    font-weight: 400;
+    color: black;
+ }
+ .conLinks{
+     color: black;
+     
+ }
